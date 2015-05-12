@@ -12,6 +12,10 @@ SRC_URI=""
 LICENSE="|| ( LGPL-2.1 Apache-2.0 )"
 SLOT="0"
 
+# DEPEND=" dev-scheme/gambit-4.7.6 "
+# RDEPEND=""
+
+
  
 src_prepare() {
    eautoreconf
