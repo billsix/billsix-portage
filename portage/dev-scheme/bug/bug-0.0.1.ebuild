@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x86-macos"
 DEPEND=">=dev-scheme/gambit-4.7.6"
 RDEPEND=""
 
-EGIT_COMMIT="3812c9ae8aff2bc201a014664bd3ef0a7575d9c0" 
+EGIT_COMMIT="0.0.1" 
  
 src_prepare() {
    eautoreconf
