@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-scheme/gambit/gambit-4.7.0.ebuild,v 1.2 2014/08/10 21:25:17 slyfox Exp $
 
-EAPI="4"
+EAPI="6"
 
 inherit eutils elisp-common
 
