@@ -1,4 +1,4 @@
-EAPI=6
+EAPI=4
 
 inherit git-2
 inherit autotools
