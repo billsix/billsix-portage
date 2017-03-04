@@ -19,7 +19,7 @@ KEYWORDS="amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x86-macos"
 DEPEND=">=dev-scheme/gambit-4.8"
 RDEPEND=""
 
-IUSE="doc static"
+IUSE="doc"
 
  
 src_prepare() {
@@ -32,10 +32,6 @@ src_compile() {
   local myconf
   if use doc ; then
       myconf="${myconf} --enable-pdf "
-  fi
-
-  if use static ; then
-      myconf="${myconf} --enable-shared=no"
   fi
 
   econf ${myconf}
