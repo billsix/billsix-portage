@@ -4,9 +4,8 @@ inherit git-r3
 inherit autotools
 
 EGIT_REPO_URI="https://github.com/billsix/bug.git"
-EGIT_COMMIT="2f958db89b962d3c9d3e77f84eac63a1fa0a12a6"
+EGIT_COMMIT="d455791a570ec7b0ea7822f12d8bff9c360c09df"
 SRC_URI=""
-
 
 DESCRIPTION="Bill's Utilities for Gambit Scheme."
 HOMEPAGE="http://github.com/billsix/bug"
