@@ -30,10 +30,10 @@ src_configure() {
 		--docdir="${EPREFIX}"/usr/share/doc/${PF} \
 		--enable-gnu-gcc-specific-options \
 		--enable-gnu-gcc-no-strict-aliasing \
-		--enable-symlinks \
 		--enable-single-host \
 		--disable-absolute-shared-libs \
 		--enable-type-checking
+
 }
 
 src_compile() {
