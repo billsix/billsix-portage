@@ -2,7 +2,7 @@ EAPI=6
 
 inherit autotools
 
-EGIT_COMMIT=0906c034f96427b6b2de6a14eacd1d084fcec3ff
+EGIT_COMMIT=f274dd7709e925dc6a16a638f0d0529f63d817d1
 SRC_URI="https://github.com/billsix/bug/archive/${EGIT_COMMIT}.tar.gz"
 
 
