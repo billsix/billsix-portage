@@ -16,7 +16,9 @@ IUSE="+clang"
 DEPEND=">=sys-devel/clang-6.0.0
         >=sys-devel/lld-6.0.0
         >=sys-devel/llvm-6.0.0"
-RDEPEND=""
+RDEPEND=">=sys-devel/clang-6.0.0
+         >=sys-devel/lld-6.0.0
+         >=sys-devel/llvm-6.0.0"
 
 
 
@@ -24,16 +26,4 @@ src_configure() {
         export CC=clang
         export CXX=clang++
 	cmake-utils_src_configure
-}
-
-src_prepare() {
-	cmake-utils_src_prepare
-}
-
-src_compile() {
-	cmake-utils_src_compile
-}
-
-src_install() {
-	cmake-utils_src_install
 }
