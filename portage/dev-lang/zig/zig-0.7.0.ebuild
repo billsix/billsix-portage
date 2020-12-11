@@ -19,7 +19,7 @@ else
 	KEYWORDS="~amd64"
 fi
 
-ALL_LLVM_TARGETS=( AArch64 AMDGPU ARM BPF NVPTX X86  ARC  AVR Hexagon Lanai
+ALL_LLVM_TARGETS=( AArch64 AMDGPU ARM BPF NVPTX X86  AVR Hexagon Lanai
         MSP430 Mips PowerPC RISCV Sparc SystemZ WebAssembly XCore)
 ALL_LLVM_TARGETS=( "${ALL_LLVM_TARGETS[@]/#/llvm_targets_}" )
 # According to zig's author, zig builds that do not support all targets are not
