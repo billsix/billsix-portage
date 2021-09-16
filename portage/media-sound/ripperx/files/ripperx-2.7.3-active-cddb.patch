@@ -1,0 +1,13 @@
+diff --git a/src/config_rw.c b/src/config_rw.c
+index cec8d18..c2cf19d 100644
+--- a/src/config_rw.c
++++ b/src/config_rw.c
+@@ -95,7 +95,7 @@ static struct {
+ 	{ "Mp3Player::Command", config.mp3_player.command,
+ 		STRING, 0, "mpg123 %" },
+ 	{ "CDDBConfig::Server", config.cddb_config.server,
+-		STRING, 0, "freedb.freedb.org/~cddb/cddb.cgi" },
++		STRING, 0, "gnudb.gnudb.org/~cddb/cddb.cgi" },
+ 	{ "CDDBConfig::Port", &config.cddb_config.port,
+ 		INT, 0, "80" },
+ 	{ "CDDBConfig::UseHttp", &config.cddb_config.use_http,
