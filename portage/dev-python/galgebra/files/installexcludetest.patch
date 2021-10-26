@@ -1,0 +1,25 @@
+From f4076d70cd769adaa85192a9dfac33e94e8d51f4 Mon Sep 17 00:00:00 2001
+From: William Emerison Six <billsix@gmail.com>
+Date: Mon, 25 Oct 2021 20:45:16 -0400
+Subject: [PATCH] do not install tests
+
+---
+ setup.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/setup.py b/setup.py
+index 2ef2062..3846b11 100644
+--- a/setup.py
++++ b/setup.py
+@@ -19,7 +19,7 @@ setup(
+     maintainer_email='hadfield.hugo@gmail.com',
+     url='https://github.com/pygae/galgebra',
+     license='BSD',
+-    packages=find_packages(),
++    packages=find_packages(exclude=["test*"]),
+     package_dir={'galgebra': 'galgebra'},
+     install_requires=['sympy'],
+     python_requires='>=3.5.*',
+-- 
+2.32.0
+
